@@ -6,7 +6,7 @@ defmodule Farside.Throttle do
     # throttle to 1 request per second
     throttle(conn.remote_ip,
       period: 1_000,
-      limit: 1,
+      limit: 10,
       storage: {PlugAttack.Storage.Ets, Farside.Throttle.Storage}
     )
   end
@@ -15,7 +15,7 @@ defmodule Farside.Throttle do
 
   def block_action(conn, _data, _opts) do
     conn
-    |> send_resp(:forbidden, "Exceeded rate limit\n")
+    |> send_resp(:forbidden, "what the heck are you even doing???\n")
     |> halt
   end
 end
