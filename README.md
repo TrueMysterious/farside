@@ -1,4 +1,4 @@
-<h1>modified verion please use the orginal version</h1>
+<h1>modified verion please use the original version</h1>
 ![Farside](img/farside.svg)
 
 [![Latest Release](https://img.shields.io/github/v/release/benbusby/farside?label=Release)](https://github.com/benbusby/farside/releases)
