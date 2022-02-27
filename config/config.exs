@@ -1,8 +1,8 @@
 import Config
 
 config :farside,
-  port: 4001,
-  redis_conn: "redis://localhost:6379",
+  port: 6379,
+  redis_conn: "redis://red-c8dmlj7h8vl72o5gf7h0:6379",
   update_file: ".update-results",
   service_prefix: "service-",
   fallback_suffix: "-fallback",
