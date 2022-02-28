@@ -4,8 +4,8 @@ name: Sync to Upstream
 
 on:
   schedule:
-    - cron:  '1 * * * *'
-    #every minute
+    - cron:  '* 1 * * *'
+    #every hour
   workflow_dispatch:
 
 jobs:
